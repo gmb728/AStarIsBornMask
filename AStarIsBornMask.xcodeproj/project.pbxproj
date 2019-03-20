@@ -12,6 +12,8 @@
 		DD1923C5223F2B9F007FA8CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD1923C3223F2B9F007FA8CD /* Main.storyboard */; };
 		DD1923C7223F2BA3007FA8CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD1923C6223F2BA3007FA8CD /* Assets.xcassets */; };
 		DD1923CA223F2BA3007FA8CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD1923C8223F2BA3007FA8CD /* LaunchScreen.storyboard */; };
+		DD1923D2223F2D00007FA8CD /* SharpImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1923D1223F2D00007FA8CD /* SharpImageView.swift */; };
+		DD4AA11922421ABD00C2675B /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4AA11822421ABD00C2675B /* MovieViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DD1923C6223F2BA3007FA8CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD1923C9223F2BA3007FA8CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD1923CB223F2BA3007FA8CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD1923D1223F2D00007FA8CD /* SharpImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharpImageView.swift; sourceTree = "<group>"; };
+		DD4AA11822421ABD00C2675B /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				DD1923BF223F2B9F007FA8CD /* AppDelegate.swift */,
 				DD1923C1223F2B9F007FA8CD /* ViewController.swift */,
+				DD4AA11822421ABD00C2675B /* MovieViewController.swift */,
 				DD1923C3223F2B9F007FA8CD /* Main.storyboard */,
+				DD1923D1223F2D00007FA8CD /* SharpImageView.swift */,
 				DD1923C6223F2BA3007FA8CD /* Assets.xcassets */,
 				DD1923C8223F2BA3007FA8CD /* LaunchScreen.storyboard */,
 				DD1923CB223F2BA3007FA8CD /* Info.plist */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD1923C2223F2B9F007FA8CD /* ViewController.swift in Sources */,
+				DD1923D2223F2D00007FA8CD /* SharpImageView.swift in Sources */,
 				DD1923C0223F2B9F007FA8CD /* AppDelegate.swift in Sources */,
+				DD4AA11922421ABD00C2675B /* MovieViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
